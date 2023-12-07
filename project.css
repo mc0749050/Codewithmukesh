@@ -1,0 +1,173 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.head{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.head h3{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+  margin: 0px 40px;
+  text-align: center;
+  margin-top: 150px;
+}
+.head p{
+  font-family: sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  text-align: center;
+}
+.head input{
+  width: 76%;
+  height: 45px;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 0px 10px;
+}
+.head i{
+  background: #9100FF;
+  color: #fff;
+  padding: 9.5px 18px;
+  position: absolute;
+  right: 32px;
+  font-size: 25px;
+}
+::placeholder{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+  padding: 10px;
+}
+.projects{
+ margin-top: 50px;
+}
+.projects img{
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 5px;
+}
+.websitename{
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 20px;
+  padding-bottom: 36px;
+}
+.introduction_project{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 5px 20px;
+}
+.toptext{
+  margin-top: 50px;
+}
+.projects a{
+  background: #9100FF;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 4px;
+  color: #fff;
+  margin-left: 30px;
+  font-family: sans-serif;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+}
+.projects a:hover{
+  background: #fff;
+  color: #000000;
+  border: 0.5px solid #000000;
+}
+.adiv{
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.backIcon{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+}
+
+
+
+
+.nav{
+  display: flex;
+  width: 100vw;
+  height: 8vh;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  z-index: 3;
+  background: #fff;
+  position: fixed;
+  top: 0px;
+}
+.right{
+  width: 110px;
+  text-align: center;
+}
+.left{
+  width: 70%;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 14px;
+}
+.left i{
+  font-size: 28px;
+  padding: 0px 8px;
+}
+.right img{
+  height: 38px;
+  margin-top: 13px;
+  margin-left: 5px;
+}
+.sidenav{
+  height: 440px;
+  width: 360px;
+  position: absolute;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+  display: none;
+  z-index: 3;
+  position: fixed;
+  top: 8vh;
+}
+
+.left i:hover{
+  background: #DADADA;
+  border: 0.02px solid rgba(41, 41, 41, 0.2);
+  border-radius: 5px;
+}
+
+ li{
+  text-decoration: none;
+}
+.list_sidenav li a{
+  text-decoration: none;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 17px;
+  border-bottom: 0.03px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  padding: 20px 15px;
+  z-index: 3;
+}
+.list_sidenav li a:hover{
+  color: #9100FF;
+}
+.sidenav p{
+  font-family: cursive;
+  font-size: 12px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 50px;
+}

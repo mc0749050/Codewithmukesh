@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>codewithmukesh</title>
+  <!-- link css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- external cdn -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+  
+<!--successful login -->
+
+<div class="successfullogin">
+  <i class="fa-solid fa-xmark" onclick="successfulof()"></i>
+  <img src="https://media.tenor.com/bm8Q6yAlsPsAAAAi/verified.gif" alt="">
+  <p>Login Successful</p>
+</div>
+
+  
+  <!-- login -->
+  
+  <div class="loginbody">
+    <div class="head">
+      <p>Login</p><i class="fa-solid fa-xmark" onclick="logout()"></i>
+    </div>
+    <div class="inputbody">
+      <input id="type_textinput" type="text" placeholder="Username">
+      <input type="number" placeholder="Password"><br>
+      <button type="submit" onclick="successfulon()">Login</button>
+      <p class="signin">or</p>
+      <button id="Google_login" type="submit" onclick="successfulon()"><i class="fa-brands fa-google"></i>Google</button>
+      <button id="Facebook_login" type="submit" onclick="successfulon()"><i class="fa-brands fa-facebook-f"></i>Facebook</button>
+    </div>
+  </div>
+  
+  <header>
+    <div class="nav">
+      <div class="right"><img src="logo.png" alt="logo.png"></div>
+      <div class="left"><i onclick="sidenav()" class="bi bi-list"></i></div>
+    </div>
+  </header>
+  
+  
+  <div class="sidenav">
+   <ol class="list_sidenav">
+     <li><a href="index.html">Home</a></li>
+     <li><a href="#" onclick="login()">Login</a></li>
+     <li><a href="project.html">projects</a></li>
+     <li><a href="#">Learn</a></li>
+     <li><a href="contact.html">Contact</a></li>
+     <li><a href="about.html">About</a></li>
+   </ol>
+   <p onclick="thanks()">Develop by Mukesh 🖤</p>
+ </div>
+ 
+ <div class="thanks"> 
+ <i onclick="ofthanks()" class="fa-regular fa-circle-xmark fa-fade" style="color: #000000;"></i>
+ <p>Thanks for your lovely support<br>Our team always ready for you ❤️</p></div>
+
+  <div class="mainbody">
+    
+    <div class="texthead">
+    <h6 class="text_1">Welcome to</h6>
+    <h6 class="text_2">Code with Mukesh</h6>
+    <p class="learn_text">Learn <span id="autotext"></span></p> 
+    
+    <p class="introduction_text">Confused on which course to take? I have got you covered. Browse courses and find out the best course for you. Its free! Code With Mukesh is my attempt to teach basics and those coding techniques to people in short time which took me ages to learn. Website service also available.</p>
+    
+    <a class="first_a" href="#">Courses</a>
+    <a class="second_a" href="project.html">Projects</a>
+    </div>
+  </div>
+
+   <div class="recommend_project">
+    <h3>Recommended <br> projects</h3>
+     
+     <div class="project_1_homediv">
+       <img src="cricket_project_1img.jpg" alt="">
+       
+       <p class="gamename">Cricket Game – ultimate project</p>
+       
+       <p class="introduction_project">Cricket game is one of the most demanded popular game. it is equally easy to learn and master this game. It make with Html css javascript. Very easy to learn.</p>
+       
+       <a href="project.html">code</a>
+       
+     </div>
+     
+     <div class="project_1_homediv">
+       <img src="Food_project_1img.jpg" alt="">
+     
+       <p class="gamename">Food eCommerce – website project</p>
+     
+       <p class="introduction_project">Food eCommerce company has a really cool and modern website design. The colors are very muted and earthy, which goes well with the theme of tea. The layout is very clean and easy to navigate. I really like how they have a lot of information on each page, but it is still easy to find what you are looking for.</p>
+     
+       <a href="project.html">code</a>
+     
+     </div>
+     
+     <div class="project_1_homediv">
+       <img src="calculator_project_1img.jpg" alt="">
+     
+       <p class="gamename">Math calculator – website project</p>
+     
+       <p class="introduction_project">A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, calculations. Most calculators these days require electricity to operate or are battery-powered calculators. Calculators work by performing programmed functions based on numerical inputs.</p>
+     
+       <a href="project.html">code</a>
+     
+     </div>
+     
+      <div class="project_1_homediv">
+        <img src="tictac_project_1img.jpg" alt="">
+     
+        <p class="gamename">Tic Tac – Game project</p>
+     
+        <p class="introduction_project">Tic-tac-toe is a simple, two-player game that, if played optimally by both players, will always result in a tie. The game is also called noughts and crosses or Xs and Os. Tic-tac-toe is a game that is traditionally played by being drawn on paper, and it can be played on a computer or on a variety of media. Other games, such as Connect 4, are based on this classic.</p>
+     
+        <a href="project.html">code</a>
+     
+      </div>
+     
+   </div>
+
+ <footer>
+   <img src="myimg.jpg" alt="">
+   <h2>codewithmukesh</h2>
+   <h6>developer - 3 year experience </h6>
+   <p>copyright © 2023 codewithmukesh.online</p>
+ </footer>
+ 
+ <script src="main.js">main.js</script>
+</body>
+</html>

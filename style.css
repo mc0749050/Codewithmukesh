@@ -1,0 +1,366 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: sans-serif;
+}
+.nav{
+  display: flex;
+  width: 100vw;
+  height: 8vh;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  z-index: 3;
+  background: #fff;
+  position: fixed;
+  top: 0px;
+}
+.right{
+  width: 110px;
+  text-align: center;
+}
+.left{
+  width: 70%;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 14px;
+}
+.left i{
+  font-size: 28px;
+  padding: 0px 8px;
+}
+.right img{
+  height: 38px;
+  margin-top: 13px;
+  margin-left: 5px;
+}
+.sidenav{
+  height: 440px;
+  width: 360px;
+  position: absolute;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+  display: none;
+  z-index: 3;
+  position: fixed;
+  top: 8vh;
+}
+
+.left i:hover{
+  background: #DADADA;
+  border: 0.02px solid rgba(41, 41, 41, 0.2);
+  border-radius: 5px;
+}
+
+ li{
+  text-decoration: none;
+}
+.list_sidenav li a{
+  text-decoration: none;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 17px;
+  border-bottom: 0.03px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  padding: 20px 15px;
+  z-index: 3;
+}
+.list_sidenav li a:hover{
+  color: #9100FF;
+}
+.sidenav p{
+  font-family: cursive;
+  font-size: 12px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 50px;
+}
+.thanks p{
+ font-family: sans-serif;
+ font-size: 13px;
+ text-align: justify;
+ display: flex;
+ justify-content: center;
+ line-height: 20px;
+ user-select: none;
+}
+.thanks{
+  width: 80%;
+  padding: 40px 0px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-left: 10%;
+  margin-top: 60%;
+  position: absolute;
+  display: none;
+  background: #fff;
+  position: fixed;
+}
+
+.thanks i{
+  font-size: 25px;
+  position: absolute;
+  left: 255px;
+  top: 10px;
+}
+.text_1{
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  padding: 3px 0px;
+}
+.text_2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #9100FF;
+  padding: 3px 0px;
+}
+.learn_text{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 3px 0px;
+}
+.introduction_text{
+  font-size: 15px;
+  color: #6C6C6C;
+  text-align: justify;
+  padding: 15px 30px;
+  padding-bottom: 30px;
+}
+.texthead span{
+  color: #9100FF;
+}
+.texthead{
+  text-align: center;
+  margin-top: 100px;
+  user-select: none;
+}
+.texthead a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 8px;
+}
+.first_a{
+  background: #2A252D;
+}
+.second_a{
+  background: #B6B6B6
+}
+.recommend_project h3{
+  font-size: 28px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #000000;
+  text-align: center;
+  margin-top: 90px;
+  user-select: none;
+}
+.project_1_homediv{
+  width: 75%;
+  margin-left: 12.5%;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 50px;
+}
+.project_1_homediv img{
+  width: 100%;
+  border-radius: 8px;
+}
+.project_1_homediv .gamename{
+  font-size: 22px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  user-select: none; 
+}
+.introduction_project{
+  font-size: 15px;
+  color: hsla(71, 100%, 0%, 0.5);
+  font-family: sans-serif;
+  padding: 30px;
+  text-align: justify;
+  user-select: none;
+}
+.project_1_homediv a{
+  background: #9100FF;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 4px;
+  border: 0.5px solid #000000;
+  color: #fff;
+  margin-left: 30px;
+  
+}
+.project_1_homediv a:hover{
+  color: #000000;
+  background: #fff; 
+}
+footer{
+  background: #E1E1E1;
+  width: 100%;
+  height: 140px;
+  margin-top: 150px;
+  user-select: none;
+}
+footer img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+footer h2{
+  color: #000000;
+  font-family: sans-serif;
+  margin-left: 120px;
+  margin-top: -50px;
+  user-select: none;
+}
+footer h6{
+  color: #000000;
+  font-family: sans-serif;
+  margin-left: 140px;
+  font-size: 10px;
+  font-weight: 500;
+}
+footer p{
+  font-size: 10px;
+  color: #000000;
+  margin-top: 32px;
+  text-align: center;
+}
+.loginbody{
+  background: green;
+  width: 90%;
+  height: 70vh;
+  margin-left: 5%;
+  position: absolute;
+  z-index: 2;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  position: fixed;
+  display: none;
+}
+.loginbody .head{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.head p{
+  font-size: 28px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: 600;
+  padding: 15px 70px;
+  margin-left: 60px;
+}
+.head i{
+  font-size: 30px;
+  margin: 10px;
+  margin-top: 0px;
+}
+.inputbody{
+  text-align: center;
+  
+}
+.inputbody input{
+  height: 37px;
+  width: 80%;
+  margin: 10px;
+  border-radius: 3px;
+  border: 0.5px solid #000000;
+  padding: 1% 2.5%;
+  font-family: sans-serif;
+}
+#type_textinput{
+  margin-top: 50px;
+}
+.inputbody button{
+  padding: 5px 100px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 27px;
+  background: #9100FF;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.inputbody p{
+  font-family: sans-serif;
+}
+
+#Facebook_login{
+  padding: 5px 75px;
+  margin-top: 0px;
+  color: #1239E0;
+  font-family: sans-serif;
+  font-weight: 300;
+  background: #fff;
+  border: 1px solid #1239E0;
+  border-radius: 10px;
+}
+#Google_login{
+  padding: 5px 90px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #1239E0;
+  background: #fff;
+  border: 1px solid #1239E0;;
+  border-radius: 10px;
+}
+#Google_login i{
+  font-size: 23px;
+  position: absolute;
+  left: 80px;
+  top: 368px;
+  color: #1239E0;
+}
+#Facebook_login i{
+  font-size: 23px;
+  position: absolute;
+  left: 80px;
+  top: 420px;
+  color: #1239E0;
+}
+.successfullogin{
+  background: white;
+  width: 80%;
+  height: 50%;
+  margin-left: 10%;
+  margin-top: 120px;
+  text-align: center;
+  border-radius: 15px;
+  position: fixed;
+  z-index: 3;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: none;
+}
+.successfullogin i{
+  position: absolute;
+  top: 15px;
+  font-size: 27px;
+  left: 250px;
+}
+.successfullogin p{
+  font-size: 26px;
+  font-family: sans-serif;
+  padding: 40px 0px;
+  font-weight: 500;
+}
+.successfullogin img{
+  height: 130px;
+  margin-top: 60px;
+}
